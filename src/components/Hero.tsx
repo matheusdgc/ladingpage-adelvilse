@@ -1,19 +1,21 @@
 import { ArrowRight, Sparkles } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
 import therapistPortrait from "@/assets/adelvilse-profile.png";
+import { WavyBackground } from "@/components/ui/wavy-background";
 
 const Hero = () => {
   return (
-    <section
-      className="relative min-h-screen flex items-center pt-20"
-      style={{
-        backgroundImage: `url(${heroBg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/50 to-background" />
+    <section className="relative min-h-screen flex items-center pt-20">
+      {/* Wavy Background */}
+      <WavyBackground
+        containerClassName="absolute inset-0"
+        colors={["#B3D9E6", "#80C0D9", "#5A8AAD", "#E8F4F8", "#A6D4E3"]}
+        waveWidth={50}
+        backgroundFill="#F7FAFB"
+        blur={10}
+        speed="slow"
+        waveOpacity={0.3}
+        className="absolute inset-0"
+      />
 
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
