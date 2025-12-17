@@ -3,25 +3,25 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Maria Clara S.",
-    text: "A Dé tem uma energia maravilhosa e um dom especial para ajudar as pessoas. Depois das sessões de Constelação Familiar, consegui entender padrões que me acompanhavam há anos. Me sinto leve e renovada.",
+    text: "Adelvilse tem uma energia maravilhosa e um dom especial para ajudar as pessoas. Depois das sessões de Constelação Familiar, consegui entender padrões que me acompanhavam há anos. Me sinto leve e renovada.",
     therapy: "Constelação Familiar",
     rating: 5,
   },
   {
     name: "Roberto M.",
-    text: "Procurei a Dé para sessões de hipnose e o resultado foi transformador. Consegui superar medos que me limitavam há muito tempo. Profissional extremamente competente e acolhedora.",
+    text: "Procurei a Adelvilse para sessões de hipnose e o resultado foi transformador. Consegui superar medos que me limitavam há muito tempo. Profissional extremamente competente e acolhedora.",
     therapy: "Hipnose",
     rating: 5,
   },
   {
     name: "Ana Paula F.",
-    text: "O Reiki com a Dé é uma experiência única de paz e renovação. Cada sessão me reconecta comigo mesma e me dá forças para enfrentar os desafios do dia a dia. Recomendo de olhos fechados!",
+    text: "O Reiki com a Adelvilse é uma experiência única de paz e renovação. Cada sessão me reconecta comigo mesma e me dá forças para enfrentar os desafios do dia a dia. Recomendo de olhos fechados!",
     therapy: "Reiki",
     rating: 5,
   },
   {
     name: "Fernanda L.",
-    text: "A Mesa Radiônica Arcturiana foi uma descoberta incrível. Senti mudanças profundas na minha energia e disposição. A Dé explica tudo com muita clareza e carinho.",
+    text: "A Mesa Radiônica Arcturiana foi uma descoberta incrível. Senti mudanças profundas na minha energia e disposição. A Adelvilse explica tudo com muita clareza e carinho.",
     therapy: "Mesa Radiônica",
     rating: 5,
   },
@@ -37,12 +37,12 @@ const Testimonials = () => {
             Depoimentos
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-semibold mt-4">
-            Histórias de{" "}
-            <span className="text-primary">transformação</span>
+            Histórias de <span className="text-primary">transformação</span>
           </h2>
           <p className="mt-6 text-muted-foreground text-lg">
-            Cada pessoa que passa pelo meu consultório carrega uma história única. 
-            Aqui estão algumas das transformações que tive o privilégio de presenciar.
+            Cada pessoa que passa pelo meu consultório carrega uma história
+            única. Aqui estão algumas das transformações que tive o privilégio
+            de presenciar.
           </p>
         </div>
 

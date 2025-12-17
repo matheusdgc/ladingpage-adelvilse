@@ -32,7 +32,10 @@ const benefits = [
 
 const Benefits = () => {
   return (
-    <section id="beneficios" className="section-padding bg-background relative overflow-hidden">
+    <section
+      id="beneficios"
+      className="section-padding bg-background relative overflow-hidden"
+    >
       {/* Background decoration */}
       <div className="absolute top-1/2 left-0 w-96 h-96 bg-primary/5 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl" />
       <div className="absolute top-1/4 right-0 w-80 h-80 bg-accent/5 rounded-full translate-x-1/2 blur-3xl" />
@@ -44,12 +47,11 @@ const Benefits = () => {
             Benefícios
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-semibold mt-4">
-            Uma jornada de{" "}
-            <span className="text-primary">transformação</span>
+            Uma jornada de <span className="text-primary">transformação</span>
           </h2>
           <p className="mt-6 text-muted-foreground text-lg">
-            As terapias integrativas oferecem benefícios que vão além do tratamento 
-            de sintomas, promovendo uma cura genuína e duradoura.
+            As terapias integrativas oferecem benefícios que vão além do
+            tratamento de sintomas, promovendo uma cura genuína e duradoura.
           </p>
         </div>
 
@@ -90,10 +92,10 @@ const Benefits = () => {
               "
             </div>
             <p className="text-xl md:text-2xl font-display italic text-foreground leading-relaxed">
-              A cura verdadeira acontece quando nos permitimos olhar para dentro 
+              A cura verdadeira acontece quando nos permitimos olhar para dentro
               e abraçar cada parte de quem somos.
             </p>
-            <p className="mt-6 text-primary font-medium">— Dé</p>
+            <p className="mt-6 text-primary font-medium">— Adelvilse</p>
           </div>
         </div>
       </div>

@@ -18,10 +18,14 @@ const Header = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-20">
           <a href="#" className="flex items-center gap-3">
-            <img src={logo} alt="Dé - Terapeuta Integrativa" className="h-10 w-auto" />
+            <img
+              src={logo}
+              alt="Adelvilse - Terapeuta Integrativa"
+              className="h-10 w-auto"
+            />
             <div className="hidden sm:block">
               <span className="font-display text-xl font-semibold text-primary block leading-tight">
-                Dé
+                Adelvilse
               </span>
               <span className="text-xs text-muted-foreground">
                 Terapeuta Integrativa

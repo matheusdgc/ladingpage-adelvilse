@@ -1,4 +1,11 @@
-import { Phone, Instagram, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
+import {
+  Phone,
+  Instagram,
+  Mail,
+  MapPin,
+  Clock,
+  MessageCircle,
+} from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Contact = () => {
@@ -25,7 +32,10 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contato" className="section-padding bg-background relative overflow-hidden">
+    <section
+      id="contato"
+      className="section-padding bg-background relative overflow-hidden"
+    >
       {/* Background decoration */}
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/5 rounded-full translate-x-1/2 translate-y-1/2 blur-3xl" />
 
@@ -36,11 +46,10 @@ const Contact = () => {
             Contato
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-semibold mt-4">
-            Vamos iniciar sua{" "}
-            <span className="text-primary">jornada?</span>
+            Vamos iniciar sua <span className="text-primary">jornada?</span>
           </h2>
           <p className="mt-6 text-muted-foreground text-lg">
-            Estou aqui para te acolher. Entre em contato e vamos conversar sobre 
+            Estou aqui para te acolher. Entre em contato e vamos conversar sobre
             como posso te ajudar nesse caminho de transformação.
           </p>
         </div>
@@ -62,12 +71,16 @@ const Contact = () => {
               >
                 <div
                   className={`w-14 h-14 rounded-2xl flex items-center justify-center ${
-                    contact.primary ? "bg-primary-foreground/20" : "bg-primary/10"
+                    contact.primary
+                      ? "bg-primary-foreground/20"
+                      : "bg-primary/10"
                   }`}
                 >
                   <contact.icon
                     className={`w-6 h-6 ${
-                      contact.primary ? "text-primary-foreground" : "text-primary"
+                      contact.primary
+                        ? "text-primary-foreground"
+                        : "text-primary"
                     }`}
                   />
                 </div>
@@ -83,7 +96,9 @@ const Contact = () => {
                   </p>
                   <p
                     className={`text-lg font-semibold ${
-                      contact.primary ? "text-primary-foreground" : "text-foreground"
+                      contact.primary
+                        ? "text-primary-foreground"
+                        : "text-foreground"
                     }`}
                   >
                     {contact.value}
@@ -99,7 +114,7 @@ const Contact = () => {
                 <div>
                   <p className="font-medium">Horário de Atendimento</p>
                   <p className="text-sm text-muted-foreground">
-                    Segunda a Sábado • 8h às 20h
+                    Segunda, Quarta e Sexta • 8h às 18h
                   </p>
                 </div>
               </div>
@@ -123,7 +138,11 @@ const Contact = () => {
 
             <div className="relative text-center space-y-6">
               <div className="w-20 h-20 mx-auto rounded-full bg-primary/10 flex items-center justify-center p-4">
-                <img src={logo} alt="Dé" className="w-full h-full object-contain" />
+                <img
+                  src={logo}
+                  alt="Adelvilse"
+                  className="w-full h-full object-contain"
+                />
               </div>
 
               <h3 className="text-2xl md:text-3xl font-display font-semibold">
@@ -131,12 +150,12 @@ const Contact = () => {
               </h3>
 
               <p className="text-muted-foreground">
-                O primeiro passo é sempre o mais importante. Clique no botão abaixo 
-                e vamos conversar sobre como posso te ajudar.
+                O primeiro passo é sempre o mais importante. Clique no botão
+                abaixo e vamos conversar sobre como posso te ajudar.
               </p>
 
               <a
-                href="https://wa.me/5519994628516?text=Olá Dé! Gostaria de agendar uma sessão."
+                href="https://wa.me/5519994628516?text=Olá Adelvilse! Gostaria de agendar uma sessão."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-accent inline-flex items-center gap-2 w-full sm:w-auto justify-center"

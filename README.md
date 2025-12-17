@@ -1,81 +1,101 @@
-# Welcome to your Lovable project
+# ✨ Adelvilse Alves Ritter - Terapeuta Integrativa
 
-## Project info
+> Landing page profissional desenvolvida para **Adelvilse Alves Ritter**, terapeuta integrativa com 8 anos de experiência transformando vidas através de terapias holísticas.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## ��� Sobre o Projeto
 
-There are several ways of editing your application.
+Uma landing page moderna e elegante que reflete a essência acolhedora das terapias integrativas. O design combina tons suaves de azul e rosa, tipografia serifada sofisticada e animações fluidas que criam uma experiência imersiva e tranquila.
 
-**Use Lovable**
+### ��� Destaques
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Design Responsivo**: Experiência perfeita em mobile, tablet e desktop
+- **Animações Suaves**: Micro-interações que elevam a UX
+- **SEO Otimizado**: Meta tags completas, Open Graph e Schema.org
+- **Performance**: Build otimizado com Vite e SWC
+- **Acessibilidade**: Componentes baseados em Radix UI
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ���️ Stack Tecnológica
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies using npm.
-npm install
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+Frontend Framework:  React 18 + TypeScript
+Build Tool:          Vite 5
+Styling:             Tailwind CSS 3 + shadcn/ui
+UI Components:       Radix UI (40+ componentes)
+Icons:               Lucide React
+Routing:             React Router DOM
+State Management:    TanStack Query
+Forms:               React Hook Form + Zod
+Animations:          Custom CSS + Tailwind Animate
 ```
 
-## Available Scripts
+### ��� Principais Dependências
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run build:dev` - Build for development
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+- **shadcn/ui** - Sistema de componentes reutilizáveis e acessíveis
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Hook Form** - Gerenciamento de formulários performático
+- **Zod** - Validação de schemas type-safe
+- **Lucide React** - Biblioteca de ícones moderna
+- **Sonner** - Sistema de notificações toast elegante
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ��� Quick Start
 
-**Use GitHub Codespaces**
+```bash
+# Clone o repositório
+git clone <repository-url>
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Instale as dependências
+npm install
 
-## What technologies are used for this project?
+# Inicie o servidor de desenvolvimento
+npm run dev
 
-This project is built with:
+# Build para produção
+npm run build
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## ��� Funcionalidades
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+✅ **Hero Section** com CTAs estratégicos  
+✅ **Seção Sobre** com valores e missão  
+✅ **Grid de Serviços** com 9 terapias detalhadas  
+✅ **Benefícios** categorizados (Emocional, Energético, Espiritual)  
+✅ **Depoimentos** reais de clientes  
+✅ **Contato Integrado** com WhatsApp, Instagram e Email  
+✅ **Header Fixo** com glassmorphism effect  
+✅ **Footer Completo** com links e informações
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ��� Design System
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- **Fontes**: Cormorant Garamond (display) + Nunito (sans-serif)
+- **Cores**: Paleta serena com azuis e rosas suaves
+- **Componentes**: 40+ componentes UI do shadcn/ui
+- **Animações**: Fade-up, float, pulse-soft
+- **Efeitos**: Glassmorphism, gradientes, sombras elevadas
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## ��� Otimizações Implementadas
+
+��� **SEO**: Meta tags completas, Open Graph, Twitter Cards, Schema.org  
+⚡ **Performance**: Lazy loading, SWC compiler, otimização de assets  
+♿ **Acessibilidade**: Componentes Radix UI, navegação por teclado  
+��� **Mobile-First**: Design responsivo em todos os breakpoints  
+��� **Conversão**: CTAs estratégicos com links diretos para WhatsApp
+
+---
+
+## ��� Aprendizados do Projeto
+
+Desenvolver esta landing page foi uma oportunidade de aplicar boas práticas modernas de desenvolvimento web, desde a arquitetura componentizada até otimizações avançadas de SEO e performance. A combinação de React + TypeScript + Tailwind CSS provou ser extremamente produtiva, enquanto o shadcn/ui acelerou significativamente o desenvolvimento da interface.
+
+---

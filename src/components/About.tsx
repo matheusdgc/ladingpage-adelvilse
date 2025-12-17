@@ -5,12 +5,14 @@ const About = () => {
     {
       icon: Heart,
       title: "Acolhimento",
-      description: "Cada pessoa é única e merece ser ouvida com amor e respeito.",
+      description:
+        "Cada pessoa é única e merece ser ouvida com amor e respeito.",
     },
     {
       icon: Star,
       title: "Excelência",
-      description: "Formação contínua e dedicação para oferecer o melhor cuidado.",
+      description:
+        "Formação contínua e dedicação para oferecer o melhor cuidado.",
     },
     {
       icon: Users,
@@ -20,7 +22,8 @@ const About = () => {
     {
       icon: Leaf,
       title: "Integralidade",
-      description: "Tratamos corpo, mente e espírito como um todo harmonioso.",
+      description:
+        "Tratamos corpo, mente e espiritualidade como um todo harmonioso.",
     },
   ];
 
@@ -42,27 +45,30 @@ const About = () => {
 
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                Olá, sou <strong className="text-foreground">Adelvilse</strong>, mas pode me chamar 
-                de <strong className="text-foreground">Dé</strong>. Há mais de 15 anos dedico 
-                minha vida a ajudar pessoas a encontrarem seu equilíbrio interior e 
-                reconectarem-se com sua essência mais profunda.
+                Olá, meu nome é{" "}
+                <strong className="text-foreground">Adelvilse</strong> e sou
+                terapeuta. Há 8 anos venho dedicando minha vida a ajudar pessoas
+                a encontrarem seu equilíbrio interior e reconectarem-se com sua
+                essência mais profunda.
               </p>
               <p>
-                Minha abordagem é holística e integrativa, combinando diversas técnicas 
-                terapêuticas para atender às necessidades únicas de cada pessoa. Acredito 
-                que a cura verdadeira acontece quando tratamos o ser humano em sua 
-                totalidade: corpo, mente, emoções e espírito.
+                Minha abordagem é holística e integrativa, combinando diversas
+                técnicas terapêuticas para atender às necessidades únicas de
+                cada pessoa. Acredito que a cura verdadeira acontece quando
+                tratamos o ser humano em sua totalidade: corpo, mente, emoções e
+                espiritualidade.
               </p>
               <p>
-                Em cada atendimento, crio um espaço acolhedor e seguro, onde você pode 
-                se expressar livremente e encontrar as respostas que busca. Minha missão 
-                é ser uma facilitadora no seu processo de autoconhecimento e transformação.
+                Em cada atendimento, crio um espaço acolhedor e seguro, onde
+                você pode se expressar livremente e encontrar as respostas que
+                busca. Minha missão é ser uma facilitadora no seu processo de
+                autoconhecimento e transformação.
               </p>
             </div>
 
             <blockquote className="border-l-4 border-primary pl-6 py-2 italic text-foreground">
-              "Acredito que cada pessoa carrega dentro de si a capacidade de curar-se. 
-              Meu papel é apenas iluminar o caminho."
+              "Acredito que cada pessoa carrega dentro de si a capacidade de
+              curar-se. Meu papel é apenas iluminar o caminho."
             </blockquote>
           </div>
 

@@ -29,15 +29,12 @@ const Hero = () => {
               <span className="block text-primary mt-2">
                 Adelvilse Alves Ritter
               </span>
-              <span className="text-2xl md:text-3xl text-muted-foreground font-normal block mt-2">
-                "Dé"
-              </span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 leading-relaxed animate-fade-up delay-200">
-              Encontre o caminho para o seu equilíbrio interior. Através de técnicas 
-              holísticas e um olhar acolhedor, juntos vamos trilhar a jornada da sua 
-              transformação pessoal e espiritual.
+              Encontre o caminho para o seu equilíbrio interior. Através de
+              técnicas holísticas e um olhar acolhedor, juntos vamos trilhar a
+              jornada da sua transformação pessoal e espiritual.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-up delay-300">
@@ -61,18 +58,30 @@ const Hero = () => {
             {/* Trust indicators */}
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-8 pt-8 animate-fade-up delay-400">
               <div className="text-center">
-                <div className="text-2xl font-display font-bold text-primary">+15</div>
-                <div className="text-sm text-muted-foreground">Anos de Experiência</div>
+                <div className="text-2xl font-display font-bold text-primary">
+                  8
+                </div>
+                <div className="text-sm text-muted-foreground">
+                  Anos de Experiência
+                </div>
               </div>
               <div className="w-px h-12 bg-border" />
               <div className="text-center">
-                <div className="text-2xl font-display font-bold text-primary">+1000</div>
-                <div className="text-sm text-muted-foreground">Vidas Transformadas</div>
+                <div className="text-base font-display font-bold text-primary">
+                  Muitas
+                </div>
+                <div className="text-sm text-muted-foreground">
+                  Vidas Transformadas
+                </div>
               </div>
               <div className="w-px h-12 bg-border" />
               <div className="text-center">
-                <div className="text-2xl font-display font-bold text-primary">9</div>
-                <div className="text-sm text-muted-foreground">Terapias Oferecidas</div>
+                <div className="text-2xl font-display font-bold text-primary">
+                  9
+                </div>
+                <div className="text-sm text-muted-foreground">
+                  Terapias Oferecidas
+                </div>
               </div>
             </div>
           </div>
@@ -83,7 +92,7 @@ const Hero = () => {
               {/* Decorative elements */}
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl animate-pulse-soft" />
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-accent/10 rounded-full blur-2xl animate-pulse-soft delay-500" />
-              
+
               {/* Main image */}
               <div className="relative w-72 h-96 md:w-80 md:h-[420px] lg:w-96 lg:h-[500px] rounded-3xl overflow-hidden shadow-elevated">
                 <img
@@ -91,7 +100,7 @@ const Hero = () => {
                   alt="Adelvilse Alves Ritter - Terapeuta Integrativa"
                   className="w-full h-full object-cover object-top"
                 />
-                
+
                 {/* Floating badge */}
                 <div className="absolute bottom-6 left-1/2 -translate-x-1/2 glass-effect rounded-2xl px-6 py-3 text-center">
                   <p className="text-sm font-medium text-foreground">
